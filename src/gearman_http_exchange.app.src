@@ -1,0 +1,11 @@
+{application, influxdb_storage_exchange,
+ [
+  {description, "Gearman HTTP Exchange Plugin"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {env, [{host, <<"localhost">>},
+         {port, 8080}]},
+  {applications, [kernel, stdlib, rabbit, ibrowse]}
+ ]
+}.
