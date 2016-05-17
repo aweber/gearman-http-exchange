@@ -2,6 +2,8 @@ Gearman HTTP Exchange
 =====================
 A RabbitMQ exchange type that submits Gearman jobs.
 
+:boom:**Important**:boom: This project is deprecated and no longer maintained.
+
 Details
 -------
 
